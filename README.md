@@ -42,4 +42,15 @@ ___
 - Learning & Teaching - explain code and create documentations
 - Collaborative Scenarios
 
+# Workspaces
+- command `/search` helps to find smth., helpfull with `@vscode`
+- command `@workspace` helps to make some actions on current project, AI reads current project context, with `/new` helps creating new workspaces
+- file `.copilotignore` blocks using AI
+- command `/fix` ask AI to resolve error on selection
+- command `/explain` ask to explain
+- command `/tests` helps generating unit tests and test cases
+- command `/help` call Copilot instructions
+- command `/clear` start new dialog
 
+# Copilot problems 
+- 
