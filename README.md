@@ -53,4 +53,12 @@ ___
 - command `/clear` start new dialog
 
 # Copilot problems 
-- 
+- Long time waiting for answers -> check net connection or just wait
+- Fails to produce answer -> create new detailed questions
+- Hallucination: Keeps repeating -> restart or ask again
+- Copilot generates incorrect result
+
+# Copilot security check
+- can be done primitive static check, but after need Sonar Qube checks
+- Vulnerability detection
+
