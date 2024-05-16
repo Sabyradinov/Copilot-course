@@ -1,0 +1,21 @@
+{
+    "WebServer": {
+        "Port": 8080,
+        "GIN": {
+            "ReleaseMode": false,
+            "UseLogger": true,
+            "UseRecovery": true
+        }
+    },
+    "DB": {
+        "Host": "localhost",
+        "User": "root",
+        "Password": "root",
+        "Port": 3306
+    },
+    "Cache": {
+        "Host": "localhost",
+        "Password": "",
+        "Port": 6379
+    }
+}
