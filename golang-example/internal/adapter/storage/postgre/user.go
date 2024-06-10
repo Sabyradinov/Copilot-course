@@ -11,6 +11,7 @@ type User struct {
 	Surname  string
 	Email    string
 	Password string
+	RoleId   int
 	db       *sql.DB
 }
 
@@ -32,3 +33,5 @@ func (r *User) CreateUser(ctx context.Context, Name string, Surname string, Emai
 }
 
 // create function to get Name from table User
+
+// create function to get RoleId from table User and add switch case to return role name
